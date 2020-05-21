@@ -1,9 +1,6 @@
-# Basic Shell Project
+# Basic Shell in C
 
-This project consists of designing a C program to serve as a simple shell interface that accepts user commands and then 
-executes each command in a separate process. The implementation supports input and output redirection, as well as 
-pipes as a form of IPC between a pair of commands. The project also involves the use of the UNIX `fork()`, `exec()`, 
-`wait()`, `dup2()`, and `pipe()` system calls.
+This project consists of designing a C program to serve as a simple shell interface that accepts user commands and then executes each command in a separate process. The implementation supports input and output redirection, as well as pipes as a form of IPC between a pair of commands. The project also involves the use of the UNIX `fork()`, `exec()`, `wait()`, `dup2()`, and `pipe()` system calls. This shell was developed and testing on an Ubuntu VM.
 
 ### Overview
 
