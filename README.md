@@ -2,6 +2,11 @@
 
 This project consists of designing a C program to serve as a simple shell interface that accepts user commands and then executes each command in a separate process. The implementation supports input and output redirection, as well as pipes as a form of IPC between a pair of commands. The project also involves the use of the UNIX `fork()`, `exec()`, `wait()`, `dup2()`, and `pipe()` system calls. This shell was developed and testing on an Ubuntu VM.
 
+### Compiling and Running the Shell
+
+Clone this project and navigate to its working directory. In your terminal, execute the following command:
+> `make jpags`
+
 ### Overview
 
 This shell supports each of the following features and functionalities: 
@@ -10,7 +15,6 @@ This shell supports each of the following features and functionalities:
 3. Input and output redirection 
 4. Allows the parent and child processes to communicate via a pipe
 5. Allows background processes
-
 
 ### Executing Commands
 Below is a list of commands that this shell supports:
